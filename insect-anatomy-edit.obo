@@ -1,5 +1,5 @@
 ontology: uberon/insect-anatomy
-imports: http://purl.obolibrary.org/obo/uberon/core.owl
+import: http://purl.obolibrary.org/obo/uberon/core.owl
 
 [Term]
 id: UBERON:6000006
