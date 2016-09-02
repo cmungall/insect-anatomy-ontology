@@ -10,6 +10,7 @@ is_a: UBERON:0000914 ! segment
 relationship: part_of UBERON:0000033 ! head
 intersection_of: UBERON:0000914 ! segment
 intersection_of: part_of UBERON:0000033 ! head
+relationship: only_in_taxon NCBITaxon:50557 ! Insecta
 
 [Term]
 id: UBERON:6000046
@@ -42,6 +43,7 @@ def: "." [FBC:DOS, FBC:VH]
 synonym: "optic lobe placode" RELATED []
 synonym: "optic lobe primordium" RELATED []
 is_a: UBERON:0001048 ! primordium
+relationship: only_in_taxon NCBITaxon:50557 ! Insecta
 
 [Term]
 id: UBERON:6001059
@@ -54,6 +56,7 @@ is_a: UBERON:0001048 ! primordium
 is_a: UBERON:6025991 ! anterior ectoderm derivative
 relationship: part_of UBERON:6014201 ! early extended germ band embryo
 relationship: develops_from UBERON:6005434 ! visual anlage
+relationship: only_in_taxon NCBITaxon:50557 ! Insecta
 
 [Term]
 id: UBERON:6001666
@@ -76,6 +79,7 @@ is_a: UBERON:0000481 ! multi-tissue structure
 relationship: part_of UBERON:6001664 ! embryonic/larval circulatory system
 relationship: develops_from UBERON:6000132 ! mesodermal crest of segment T3
 relationship: develops_from UBERON:6005467 ! lymph gland primordium
+relationship: only_in_taxon NCBITaxon:50557 ! Insecta
 
 [Term]
 id: UBERON:6001722
@@ -108,6 +112,7 @@ def: "Imaginal disc that, in the adult, gives rise to the proboscis, including t
 is_a: UBERON:0000939 ! imaginal disc
 relationship: part_of UBERON:6001740 ! larval labial segment
 relationship: develops_from UBERON:6001650 ! labial disc primordium
+relationship: only_in_taxon NCBITaxon:50557 ! Insecta
 
 [Term]
 id: UBERON:6001765
@@ -118,6 +123,7 @@ synonym: "clypeolabral disc" EXACT []
 is_a: UBERON:0000939 ! imaginal disc
 relationship: part_of UBERON:6001734 ! larval labral segment
 relationship: develops_from UBERON:6005514 ! adult clypeo-labral primordium
+relationship: only_in_taxon NCBITaxon:50557 ! Insecta
 
 [Term]
 id: UBERON:6001766
@@ -126,6 +132,7 @@ xref: FBbt:00001766
 def: "Imaginal disc that, in the adults, gives rise to the eye, antenna, head capsule (including all bristles and external membranes) and the maxillary palps (Cohen, 1993)." [FlyBase:FBrf0064789]
 is_a: UBERON:0000939 ! imaginal disc
 relationship: develops_from UBERON:6001652 ! eye-antennal disc primordium
+relationship: only_in_taxon NCBITaxon:50557 ! Insecta
 
 [Term]
 id: UBERON:6001776
@@ -136,6 +143,7 @@ synonym: "dorsal thoracic disk" EXACT []
 is_a: UBERON:0000939 ! imaginal disc
 relationship: part_of UBERON:6001742 ! larval thoracic segment
 relationship: develops_from UBERON:6001653 ! dorsal thoracic disc primordium
+relationship: only_in_taxon NCBITaxon:50557 ! Insecta
 
 [Term]
 id: UBERON:6001778
@@ -167,6 +175,7 @@ synonym: "ventral thoracic disk" EXACT []
 is_a: UBERON:0000939 ! imaginal disc
 relationship: part_of UBERON:6001742 ! larval thoracic segment
 relationship: develops_from UBERON:6001657 ! ventral thoracic disc primordium
+relationship: only_in_taxon NCBITaxon:50557 ! Insecta
 
 [Term]
 id: UBERON:6001784
@@ -175,6 +184,7 @@ xref: FBbt:00001784
 def: "Imaginal disc that gives rise to the internal and external genitalia, analia and adult hind gut (Cohen, 1993)." [FlyBase:FBrf0064789]
 is_a: UBERON:0000939 ! imaginal disc
 relationship: develops_from UBERON:6001661 ! genital disc primordium
+relationship: only_in_taxon NCBITaxon:50557 ! Insecta
 
 [Term]
 id: UBERON:6001848
@@ -195,6 +205,7 @@ is_a: UBERON:0000020 ! sense organ
 relationship: part_of UBERON:0002548 ! larva
 intersection_of: UBERON:0000020 ! sense organ
 intersection_of: part_of UBERON:0002548 ! larva
+relationship: only_in_taxon NCBITaxon:50557 ! Insecta
 
 [Term]
 id: UBERON:6002642
@@ -216,6 +227,7 @@ is_a: UBERON:0005090 ! somatic muscle
 relationship: part_of UBERON:6003218 ! adult muscle system
 intersection_of: UBERON:0005090 ! somatic muscle
 intersection_of: part_of UBERON:6003218 ! adult muscle system
+relationship: only_in_taxon NCBITaxon:50557 ! Insecta
 
 [Term]
 id: UBERON:6003632
@@ -353,6 +365,7 @@ name: imaginal precursor
 xref: FBbt:00005023
 def: "Structure that proliferates to produce a larval imaginal disc and which gives rise to adult tissues (Bate and Martinez Arias, 1991)." [FlyBase:FBrf0053815, FlyBase:FBrf0064789]
 is_a: UBERON:0005423 ! developing material anatomical entity
+relationship: only_in_taxon NCBITaxon:50557 ! Insecta
 
 [Term]
 id: UBERON:6005036
@@ -388,6 +401,7 @@ xref: FBbt:00005038
 def: "Epithelial cell of the tracheal epithelium." [FBC:DOS]
 is_a: UBERON:6000124 ! epithelial cell
 relationship: part_of UBERON:0005155 ! tracheal system
+relationship: only_in_taxon NCBITaxon:50557 ! Insecta
 
 [Term]
 id: UBERON:6005054
@@ -410,6 +424,7 @@ id: UBERON:6005074
 name: muscle cell
 xref: FBbt:00005074
 is_a: UBERON:6100318 ! somatic cell
+relationship: only_in_taxon NCBITaxon:50557 ! Insecta
 
 [Term]
 id: UBERON:6005075
@@ -426,6 +441,7 @@ synonym: "stomodaeal nervous system" RELATED [FlyBase:FBrf0111704]
 synonym: "stomodeal nervous system" RELATED [FlyBase:FBrf0111704]
 is_a: UBERON:0011216 ! organ system subdivision
 relationship: part_of UBERON:0001017 ! central nervous system
+relationship: only_in_taxon NCBITaxon:50557 ! Insecta
 
 [Term]
 id: UBERON:6005168
@@ -436,6 +452,7 @@ synonym: "es" RELATED []
 synonym: "sensillum" RELATED []
 is_a: UBERON:0000020 ! sense organ
 relationship: develops_from UBERON:6005164 ! external sensory organ precursor cell
+relationship: only_in_taxon NCBITaxon:50557 ! Insecta
 
 [Term]
 id: UBERON:6005177
@@ -487,6 +504,7 @@ name: somatic precursor cell
 xref: FBbt:00007008
 is_a: UBERON:0005423 ! developing material anatomical entity
 is_a: UBERON:6100318 ! somatic cell
+relationship: only_in_taxon NCBITaxon:50557 ! Insecta
 
 [Term]
 id: UBERON:6007046
@@ -494,6 +512,7 @@ name: dorsal ectoderm derivative
 xref: FBbt:00007046
 is_a: UBERON:0010000 ! multicellular structure
 relationship: develops_from UBERON:6000112 ! dorsal ectoderm
+relationship: only_in_taxon NCBITaxon:50557 ! Insecta
 
 [Term]
 id: UBERON:6007231
@@ -550,6 +569,7 @@ name: cuticular specialization
 xref: FBbt:00007245
 is_a: UBERON:0000476 ! acellular anatomical structure
 relationship: part_of UBERON:0001001 ! cuticle
+relationship: only_in_taxon NCBITaxon:50557 ! Insecta
 
 [Term]
 id: UBERON:6007248
@@ -558,13 +578,7 @@ xref: FBbt:00007248
 def: "Specialized structure of the chorion of the egg." [FBC:MMC]
 is_a: UBERON:0000476 ! acellular anatomical structure
 relationship: part_of UBERON:0000920 ! chorion
-
-[Term]
-id: UBERON:6007276
-name: anatomical group
-xref: FBbt:00007276
-def: "Material anatomical entity generated by coordinated expression of the organism's own genome and whose component parts are not all connected to each other." [FBC:DOS]
-is_a: UBERON:0000465 ! material anatomical entity
+relationship: only_in_taxon NCBITaxon:50557 ! Insecta
 
 [Term]
 id: UBERON:6007280
@@ -584,6 +598,7 @@ xref: FBbt:00007284
 def: "A region of cuticle and its underlying epidermis." [FBC:DOS]
 is_a: UBERON:0011216 ! organ system subdivision
 relationship: part_of UBERON:0002416 ! integumentary system
+relationship: only_in_taxon NCBITaxon:50557 ! Insecta
 
 [Term]
 id: UBERON:6007288
@@ -597,6 +612,7 @@ name: internal sense organ
 xref: FBbt:00007373
 def: "Sense organ that is internal to the animal - i.e. having no part that is part of the cuticle." [FBC:DOS]
 is_a: UBERON:0000020 ! sense organ
+relationship: only_in_taxon NCBITaxon:50557 ! Insecta
 
 [Term]
 id: UBERON:6007424
@@ -604,6 +620,7 @@ name: epithelial furrow
 xref: FBbt:00007424
 def: "A region of an epithelium that folds inwards from the epithelial plane to form a furrow." [FBC:DOS]
 is_a: UBERON:0000483 ! epithelium
+relationship: only_in_taxon NCBITaxon:50557 ! Insecta
 
 [Term]
 id: UBERON:6007435
@@ -616,6 +633,7 @@ relationship: part_of UBERON:0000949 ! endocrine system
 relationship: capable_of GO:0060986 ! endocrine hormone secretion
 intersection_of: UBERON:0000465 ! material anatomical entity
 intersection_of: capable_of GO:0060986 ! endocrine hormone secretion
+relationship: only_in_taxon NCBITaxon:50557 ! Insecta
 
 [Term]
 id: UBERON:6041000
@@ -623,8 +641,9 @@ name: synaptic neuropil block
 xref: FBbt:00041000
 def: "A closely associated group of synaptic neuropil domains." [FBC:DOS, FBC:KI]
 synonym: "level 1 neuropil" EXACT [FlyBase:FBrf0224194]
-is_a: UBERON:6007276 ! anatomical group
+is_a: UBERON:0034925 ! anatomical collection
 relationship: part_of UBERON:6040005 ! synaptic neuropil
+relationship: only_in_taxon NCBITaxon:50557 ! Insecta
 
 [Term]
 id: UBERON:6100153
@@ -633,4 +652,5 @@ xref: FBbt:00100153
 def: "A row of sensilla." [FBC:DOS]
 is_a: UBERON:0034926 ! anatomical row
 relationship: composed_primarily_of UBERON:0002536 ! sensillum
+relationship: only_in_taxon NCBITaxon:50557 ! Insecta
 
