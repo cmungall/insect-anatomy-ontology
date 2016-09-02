@@ -2219,23 +2219,11 @@ is_a: UBERON:0004121 ! ectodermal derivative
 relationship: develops_from UBERON:6005558 ! ventral ectoderm
 
 [Term]
-id: UBERON:6025998
-name: mesodermal derivative
-xref: FBbt:00025998
-def: "Any germ layer derivative (UBERON:6000000) that is part of some late extended germ band embryo (UBERON:6004450) and that develops from some mesoderm (UBERON:6000126)." [FBC:DOS, FBC:auto_generated_definition]
-is_a: UBERON:6000000 ! germ layer derivative
-relationship: develops_from UBERON:0000926 ! mesoderm
-relationship: part_of UBERON:0000922 ! embryo
-intersection_of: UBERON:6000000 ! germ layer derivative
-intersection_of: develops_from UBERON:0000926 ! mesoderm
-intersection_of: part_of UBERON:6004450 ! late extended germ band embryo
-
-[Term]
 id: UBERON:6026000
 name: trunk mesoderm derivative
 xref: FBbt:00026000
 def: "." [FBC:DOS]
-is_a: UBERON:6025998 ! mesodermal derivative
+is_a: UBERON:0004120 ! mesoderm-derived structure
 relationship: develops_from UBERON:6000128 ! trunk mesoderm
 
 [Term]
