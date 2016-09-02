@@ -1,5 +1,6 @@
 ontology: uberon/insect-anatomy
 import: http://purl.obolibrary.org/obo/uberon/core.owl
+synonymtypedef: BRAIN_NAME_ABV ""
 
 [Term]
 id: UBERON:6000000
