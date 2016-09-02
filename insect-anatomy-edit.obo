@@ -492,7 +492,7 @@ synonym: "optic lobe primordium" RELATED []
 is_a: UBERON:0001048 ! primordium
 is_a: UBERON:6025991 ! anterior ectoderm derivative
 relationship: develops_from UBERON:6005434 ! visual anlage
-relationship: part_of UBERON:6014201 ! early extended germ band embryo
+relationship: part_of UBERON:0000922 ! embryo
 
 [Term]
 id: UBERON:6001060
@@ -527,7 +527,7 @@ synonym: "imaginal disc specific anlage" RELATED []
 is_a: UBERON:6001648 ! embryonic imaginal precursor
 is_a: UBERON:0001048 ! primordium
 relationship: develops_from UBERON:6005533 ! ventral epidermis primordium
-relationship: part_of UBERON:6005331 ! dorsal closure embryo
+relationship: part_of UBERON:0000922 ! embryo
 
 [Term]
 id: UBERON:6001650
@@ -537,7 +537,7 @@ def: "Primordium that will form the labial disc." [FBC:SPR]
 synonym: "labial disc specific anlage" RELATED []
 is_a: UBERON:6001649 ! imaginal disc primordium
 relationship: part_of UBERON:6000165 ! embryonic labial segment
-relationship: part_of UBERON:6004450 ! late extended germ band embryo
+relationship: part_of UBERON:0000922 ! embryo
 
 [Term]
 id: UBERON:6001652
@@ -548,7 +548,7 @@ synonym: "eye-antennal disc specific anlage" RELATED []
 is_a: UBERON:6001649 ! imaginal disc primordium
 relationship: develops_from UBERON:6005533 ! ventral epidermis primordium
 relationship: part_of UBERON:6000160 ! embryonic antennal segment
-relationship: part_of UBERON:6004450 ! late extended germ band embryo
+relationship: part_of UBERON:0000922 ! embryo
 
 [Term]
 id: UBERON:6001653
@@ -558,7 +558,7 @@ synonym: "dorsal thoracic disc specific anlage" RELATED []
 is_a: UBERON:6001649 ! imaginal disc primordium
 relationship: develops_from UBERON:6005533 ! ventral epidermis primordium
 relationship: part_of UBERON:6000167 ! embryonic thoracic segment
-relationship: part_of UBERON:6004450 ! late extended germ band embryo
+relationship: part_of UBERON:0000922 ! embryo
 
 [Term]
 id: UBERON:6001655
@@ -586,7 +586,7 @@ synonym: "ventral thoracic disc specific anlage" RELATED []
 is_a: UBERON:6001649 ! imaginal disc primordium
 relationship: develops_from UBERON:6005533 ! ventral epidermis primordium
 relationship: part_of UBERON:6000167 ! embryonic thoracic segment
-relationship: part_of UBERON:6004450 ! late extended germ band embryo
+relationship: part_of UBERON:0000922 ! embryo
 
 [Term]
 id: UBERON:6001658
@@ -605,7 +605,7 @@ def: "Primordium from which the genital disc develops." [FBC:SPR]
 synonym: "genital disc specific anlage" RELATED []
 is_a: UBERON:6001649 ! imaginal disc primordium
 relationship: develops_from UBERON:6005533 ! ventral epidermis primordium
-relationship: part_of UBERON:6004450 ! late extended germ band embryo
+relationship: part_of UBERON:0000922 ! embryo
 
 [Term]
 id: UBERON:6001662
@@ -1377,7 +1377,7 @@ synonym: "A AdCly" RELATED [FBC:DOS]
 is_a: UBERON:0002050 ! developing embryonic structure
 is_a: UBERON:0007688 ! anlage
 relationship: develops_from UBERON:6005538 ! clypeo-labral primordium
-relationship: part_of UBERON:6004450 ! late extended germ band embryo
+relationship: part_of UBERON:0000922 ! embryo
 
 [Term]
 id: UBERON:6004296
@@ -1650,7 +1650,7 @@ def: "Deep and narrow pit formed by the invagination of a tracheal placode in a 
 synonym: "embryonic tracheal pit" EXACT []
 synonym: "tracheal sac" EXACT [FlyBase:FBrf0147036]
 is_a: UBERON:6005037 ! tracheal primordium
-relationship: part_of UBERON:6004450 ! late extended germ band embryo
+relationship: part_of UBERON:0000922 ! embryo
 
 [Term]
 id: UBERON:6005037
@@ -1664,10 +1664,10 @@ is_a: UBERON:0002050 ! developing embryonic structure
 is_a: UBERON:0001048 ! primordium
 is_a: UBERON:6007046 ! dorsal ectoderm derivative
 relationship: develops_from UBERON:6000112 ! dorsal ectoderm
-relationship: part_of UBERON:6004450 ! late extended germ band embryo
-relationship: part_of UBERON:6005331 ! dorsal closure embryo
+relationship: part_of UBERON:0000922 ! embryo
+relationship: part_of UBERON:0000922 ! embryo
 relationship: part_of UBERON:6005569 ! presumptive embryonic/larval tracheal system
-relationship: part_of UBERON:6014201 ! early extended germ band embryo
+relationship: part_of UBERON:0000922 ! embryo
 
 [Term]
 id: UBERON:6005054
@@ -1821,7 +1821,7 @@ synonym: "lymph gland specific anlage" RELATED []
 is_a: UBERON:0002050 ! developing embryonic structure
 is_a: UBERON:6005461 ! circulatory system primordium
 relationship: develops_from UBERON:6005541 ! cardiogenic mesoderm
-relationship: part_of UBERON:6005331 ! dorsal closure embryo
+relationship: part_of UBERON:0000922 ! embryo
 
 [Term]
 id: UBERON:6005514
@@ -1831,7 +1831,7 @@ synonym: "A AdCly" RELATED [FBC:DOS]
 is_a: UBERON:6001648 ! embryonic imaginal precursor
 is_a: UBERON:0001048 ! primordium
 relationship: develops_from UBERON:6004203 ! adult clypeo-labral anlage
-relationship: part_of UBERON:6005331 ! dorsal closure embryo
+relationship: part_of UBERON:0000922 ! embryo
 relationship: part_of UBERON:0000323 ! late embryo
 
 [Term]
@@ -1844,7 +1844,7 @@ is_a: UBERON:0002050 ! developing embryonic structure
 is_a: UBERON:0001048 ! primordium
 is_a: UBERON:6007046 ! dorsal ectoderm derivative
 relationship: develops_from UBERON:6000112 ! dorsal ectoderm
-relationship: part_of UBERON:6014201 ! early extended germ band embryo
+relationship: part_of UBERON:0000922 ! embryo
 
 [Term]
 id: UBERON:6005533
@@ -1855,7 +1855,7 @@ synonym: "venEpiP2" RELATED []
 is_a: UBERON:0001048 ! primordium
 is_a: UBERON:6025993 ! ventral ectoderm derivative
 relationship: develops_from UBERON:0002346 ! ventral neurectoderm
-relationship: part_of UBERON:6014201 ! early extended germ band embryo
+relationship: part_of UBERON:0000922 ! embryo
 
 [Term]
 id: UBERON:6005538
@@ -1865,7 +1865,7 @@ synonym: "ClyP2" RELATED []
 is_a: UBERON:0001048 ! primordium
 is_a: UBERON:6025991 ! anterior ectoderm derivative
 relationship: develops_from UBERON:6005439 ! clypeo-labral anlage
-relationship: part_of UBERON:6014201 ! early extended germ band embryo
+relationship: part_of UBERON:0000922 ! embryo
 
 [Term]
 id: UBERON:6005541
@@ -1878,7 +1878,7 @@ synonym: "cardiac mesoderm" EXACT []
 synonym: "cardiac mesoderm primordium" RELATED []
 is_a: UBERON:6026002 ! visceral mesoderm derivative
 relationship: develops_from UBERON:6000130 ! visceral mesoderm
-relationship: part_of UBERON:6004450 ! late extended germ band embryo
+relationship: part_of UBERON:0000922 ! embryo
 
 [Term]
 id: UBERON:6005558
@@ -1927,8 +1927,8 @@ synonym: "P1 BolOrg" RELATED [FBC:DOS]
 is_a: UBERON:0001048 ! primordium
 is_a: UBERON:6025991 ! anterior ectoderm derivative
 relationship: develops_from UBERON:6001059 ! visual primordium
-relationship: part_of UBERON:6004450 ! late extended germ band embryo
-relationship: part_of UBERON:6005331 ! dorsal closure embryo
+relationship: part_of UBERON:0000922 ! embryo
+relationship: part_of UBERON:0000922 ! embryo
 
 [Term]
 id: UBERON:6005831
@@ -2190,7 +2190,7 @@ synonym: "abdominal histoblast specific anlage" RELATED []
 is_a: UBERON:0002050 ! developing embryonic structure
 is_a: UBERON:0001048 ! primordium
 relationship: develops_from UBERON:6017021 ! abdominal histoblast anlage
-relationship: part_of UBERON:6005331 ! dorsal closure embryo
+relationship: part_of UBERON:0000922 ! embryo
 
 [Term]
 id: UBERON:6017021
@@ -2200,7 +2200,7 @@ def: "." [FBC:VH]
 is_a: UBERON:0002050 ! developing embryonic structure
 is_a: UBERON:0007688 ! anlage
 relationship: develops_from UBERON:6005526 ! dorsal epidermis primordium
-relationship: part_of UBERON:6004450 ! late extended germ band embryo
+relationship: part_of UBERON:0000922 ! embryo
 
 [Term]
 id: UBERON:6025991
@@ -2225,7 +2225,7 @@ xref: FBbt:00025998
 def: "Any germ layer derivative (UBERON:6000000) that is part of some late extended germ band embryo (UBERON:6004450) and that develops from some mesoderm (UBERON:6000126)." [FBC:DOS, FBC:auto_generated_definition]
 is_a: UBERON:6000000 ! germ layer derivative
 relationship: develops_from UBERON:0000926 ! mesoderm
-relationship: part_of UBERON:6004450 ! late extended germ band embryo
+relationship: part_of UBERON:0000922 ! embryo
 intersection_of: UBERON:6000000 ! germ layer derivative
 intersection_of: develops_from UBERON:0000926 ! mesoderm
 intersection_of: part_of UBERON:6004450 ! late extended germ band embryo
