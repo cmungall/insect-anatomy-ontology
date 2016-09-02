@@ -81,7 +81,7 @@ is_a: UBERON:6000011 ! gnathal segment
 
 [Term]
 id: UBERON:6000015
-name: thorax
+name: insect thorax
 xref: FBbt:00000015
 def: "The main middle section of the insect body comprising three thoracic rings: the pro-, the meso- and the metathoraces which are more or less well fused and cask-like sometimes having on the upper lateral part one of two pairs of wings, while on the ventrolateral part each thoracic ring bears a pair of legs." [FlyBase:FBrf0166419]
 is_a: UBERON:6000002 ! tagma
@@ -131,14 +131,14 @@ relationship: part_of UBERON:6000015 ! thorax
 
 [Term]
 id: UBERON:6000020
-name: abdomen
+name: insect abdomen
 xref: FBbt:00000020
 def: "The most posterior of the three tagma (UBERON:6000002)." [FlyBase:FBrf0166419]
 is_a: UBERON:6000002 ! tagma
 
 [Term]
 id: UBERON:6000021
-name: abdominal segment
+name: insect abdominal segment
 xref: FBbt:00000021
 def: "Metameric subdivision of the abdomen." [FBC:SPR]
 is_a: UBERON:0000914 ! segment
@@ -161,13 +161,6 @@ xref: FBbt:00000030
 synonym: "a9" RELATED []
 is_a: UBERON:6000021 ! abdominal segment
 relationship: part_of UBERON:6000020 ! abdomen
-
-[Term]
-id: UBERON:6000034
-name: egg
-xref: FBbt:00000034
-is_a: UBERON:0000468 ! organism
-relationship: only_in_taxon NCBITaxon:50557 ! Insecta
 
 [Term]
 id: UBERON:6000046
@@ -339,7 +332,7 @@ intersection_of: part_of UBERON:0008816 ! embryonic head
 
 [Term]
 id: UBERON:6000166
-name: embryonic thorax
+name: insect embryonic thorax
 xref: FBbt:00000166
 def: "Any thorax (UBERON:6000015) that is part of some embryo (UBERON:6000052)." [FBC:auto_generated_definition]
 is_a: UBERON:6000015 ! thorax
@@ -403,7 +396,7 @@ intersection_of: part_of UBERON:6000166 ! embryonic thorax
 
 [Term]
 id: UBERON:6000171
-name: embryonic abdomen
+name: insect embryonic abdomen
 xref: FBbt:00000171
 def: "Abdomen of the embryo." [FBC:DOS]
 is_a: UBERON:6000020 ! abdomen
@@ -414,7 +407,7 @@ intersection_of: part_of UBERON:0000922 ! embryo
 
 [Term]
 id: UBERON:6000172
-name: embryonic abdominal segment
+name: insect embryonic abdominal segment
 xref: FBbt:00000172
 def: "Metameric subdivision of the embryonic abdomen." [FBC:SPR]
 is_a: UBERON:6000021 ! abdominal segment
@@ -994,7 +987,7 @@ xref: FBbt:00001785
 def: "Genital disc that gives rise to the penis and external genitalia, sperm pump, ejaculatory duct, paragonia and vas deferens, anal plates and adult hindgut (Cohen, 1993)." [FlyBase:FBrf0064789]
 is_a: UBERON:6001784 ! genital disc
 relationship: develops_from UBERON:6001662 ! male genital disc primordium
-relationship: part_of UBERON:6001756 ! larval abdominal segment 9
+relationship: part_of UBERON:6001747 ! larval abdominal segment
 
 [Term]
 id: UBERON:6001787
@@ -1003,7 +996,7 @@ xref: FBbt:00001787
 def: "Genital disc that gives rise to the vagina and vaginal plates, uterus, parovaria, spermatheca, seminal recepticle, oviducts, female analia and hindgut. (Cohen, 1993)." [FlyBase:FBrf0064789]
 is_a: UBERON:6001784 ! genital disc
 relationship: develops_from UBERON:6001663 ! female genital disc primordium
-relationship: part_of UBERON:6001755 ! larval abdominal segment 8
+relationship: part_of UBERON:6001747 ! larval abdominal segment
 
 [Term]
 id: UBERON:6001789
@@ -1044,7 +1037,7 @@ is_a: UBERON:6001790 ! histoblast nest
 
 [Term]
 id: UBERON:6001842
-name: embryonic/larval digestive system
+name: insect embryonic/larval digestive system
 xref: FBbt:00001842
 def: "." [FlyBase:FBrf0007733, FlyBase:FBrf0064792]
 synonym: "larval digestive system" EXACT []
@@ -1076,7 +1069,7 @@ relationship: part_of UBERON:6001845 ! cephalopharyngeal skeleton
 
 [Term]
 id: UBERON:6001911
-name: embryonic/larval nervous system
+name: insect embryonic/larval nervous system
 xref: FBbt:00001911
 def: "Nervous system of the embryo/larva." [FlyBase:FBrf0045359, FlyBase:FBrf0075072, FlyBase:FBrf0105282]
 synonym: "larval nervous system" EXACT []
@@ -1096,7 +1089,7 @@ relationship: part_of UBERON:6001911 ! embryonic/larval nervous system
 
 [Term]
 id: UBERON:6001920
-name: embryonic/larval brain
+name: insect embryonic/larval brain
 xref: FBbt:00001920
 def: "Brain of the embryo/larva." [FBC:SPR]
 synonym: "larval brain" NARROW []
@@ -1152,7 +1145,7 @@ intersection_of: part_of UBERON:0007023 ! adult
 
 [Term]
 id: UBERON:6003006
-name: adult segment
+name: insect adult segment
 xref: FBbt:00003006
 def: "Segment of the adult." [FBC:SPR]
 is_a: UBERON:0000914 ! segment
@@ -1163,7 +1156,7 @@ relationship: only_in_taxon NCBITaxon:50557 ! Insecta
 
 [Term]
 id: UBERON:6003007
-name: adult head
+name: insect adult head
 xref: FBbt:00003007
 def: "Head of the adult organism." [FBC:SPR]
 is_a: UBERON:0000033 ! head
