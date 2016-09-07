@@ -1673,11 +1673,12 @@ relationship: part_of UBERON:0005155 ! tracheal system
 
 [Term]
 id: UBERON:6005070
-name: visceral muscle
-xref: FBbt:00005070
-def: "The visceral musculature comprises circular and longitudinal fibers which surround the entire intestinal tract, with the exception of the recurrent layer of the proventriculus. The circular fibers derive from a bilaterally symmetrical band of mesodermal cells extending continuously throughout most of the germ band. The longitudinal fibers derive from clusters of mesodermal cells which appear during stage 12 at the posterior end of the embryo and migrate anteriorly." [FlyBase:FBrf0064793, FlyBase:FBrf0089570]
-is_a: CL:0000187 ! muscle cell
-relationship: part_of UBERON:0000383 ! muscle system
+name: obsolete visceral muscle
+is_obsolete: true
+consider: FBbt:00005070
+consider: CL:0008007 ! visceral muscle cell
+consider: UBERON:0007094 ! visceral musculature
+def: "The visceral musculature comprises circular and longitudinal fibers which surround the entire intestinal tract, with the exception of the recurrent layer of the proventriculus. The circular fibers derive from a bilaterally symmetrical band of mesodermal cells extending continuously throughout most of the germ band. The longitudinal fibers derive from clusters of mesodermal cells which appear during stage 12 at the posterior end of the embryo and migrate anteriorly." [FlyBase:FBrf0064793, FlyBase:FBrf0089570, https://github.com/obophenotype/insect_neuroanatomy_ontology/issues/8]
 
 [Term]
 id: UBERON:6005096
