@@ -2112,7 +2112,7 @@ intersection_of: part_of UBERON:6001730 ! larval head
 
 [Term]
 id: UBERON:6007284
-name: region of integument
+name: insect region of integument
 xref: FBbt:00007284
 def: "A region of cuticle and its underlying epidermis." [FBC:DOS]
 is_a: UBERON:0011216 ! organ system subdivision
@@ -2128,7 +2128,7 @@ is_a: UBERON:6007284 ! region of integument
 
 [Term]
 id: UBERON:6007288
-name: integumentary specialisation
+name: insect integumentary specialisation
 xref: FBbt:00007288
 is_a: UBERON:6007284 ! region of integument
 
