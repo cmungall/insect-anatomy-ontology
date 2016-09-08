@@ -2311,3 +2311,14 @@ def: "Region of the antennal disc that will develop into the arista." [FlyBase:F
 is_a: UBERON:0007688 ! anlage
 relationship: part_of UBERON:6001767 ! antennal disc
 
+[Typedef]
+id: part_of
+xref: BFO:0000050
+
+[Typedef]
+id: develops_from
+xref: RO:0002202
+
+[Typedef]
+id: only_in_taxon
+xref: RO:0002160
