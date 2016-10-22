@@ -702,7 +702,6 @@ name: ring gland
 xref: FBbt:00001722
 def: "A closely associated cluster of three neuroendocrine glands located anterior to the aorta and dorsal to the esophagus. At embryonic stage 17 and in larva it is found anterior to the brain and is formed by the corpus cardiacum ventrally, the prothoracic gland laterally and the corpus allatum dorsally. The adult ring gland is located anterior to the proventriculus and is formed by the corpus cardiacum ventrally, the corpus allatum dorsally and the hypocerebral ganglion posterior to the corpus cardiacum. It is innervated by neurons of the nervus corporis cardiaci (NccI-III)." [FlyBase:FBrf0064803, FlyBase:FBrf0089570, FlyBase:FBrf0179777, PMID:12966498]
 is_a: UBERON:0000477 ! anatomical cluster
-is_a: UBERON:6007435 ! endocrine system component
 relationship: capable_of GO:0060986 ! endocrine hormone secretion
 
 [Term]
@@ -2215,16 +2214,10 @@ relationship: only_in_taxon NCBITaxon:50557 ! Insecta
 
 [Term]
 id: UBERON:6007435
-name: endocrine system component
-xref: FBbt:00007435
-def: "Any material anatomical entity (UBERON:6007016) that capable of some endocrine hormone secretion (GO:0060986)." [FBC:auto_generated_definition]
-synonym: "endocrine organ" EXACT []
-is_a: UBERON:0000465 ! material anatomical entity
-relationship: capable_of GO:0060986 ! endocrine hormone secretion
-relationship: part_of UBERON:0000949 ! endocrine system
-intersection_of: UBERON:0000465 ! material anatomical entity
-intersection_of: capable_of GO:0060986 ! endocrine hormone secretion
-relationship: only_in_taxon NCBITaxon:50557 ! Insecta
+name: obsolete endocrine system component
+consider: FBbt:00007435
+synonym: "endocrine organ" RELATED []
+is_obsolete: true
 
 [Term]
 id: UBERON:6016022
