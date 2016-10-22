@@ -272,7 +272,6 @@ name: anterior ectoderm
 xref: FBbt:00000119
 def: "The region of the ectoderm anterior to the cephalic furrow." [FBC:DOS]
 is_a: UBERON:0010000 ! multicellular structure
-relationship: develops_from FBbt:01000119 ! anterior ectoderm anlage
 relationship: part_of UBERON:0000924 ! ectoderm
 relationship: only_in_taxon NCBITaxon:50557 ! Insecta
 
@@ -1805,7 +1804,6 @@ xref: FBbt:00005425
 synonym: "A0Vis" RELATED []
 synonym: "Asn VisSys" RELATED [FBC:DOS]
 is_a: UBERON:6005413 ! anlage in statu nascendi
-relationship: part_of FBbt:01000119 ! anterior ectoderm anlage
 
 [Term]
 id: UBERON:6005427
