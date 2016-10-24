@@ -2,7 +2,7 @@ ontology: uberon/insect-anatomy
 import: http://purl.obolibrary.org/obo/uberon/core.owl
 synonymtypedef: BRAIN_NAME_ABV ""
 synonymtypedef: PLURAL "plurals"
-subsetdef: ego_slim "EFO slim"
+subsetdef: efo_slim "EFO slim"
 
 [Term]
 id: UBERON:0000939
