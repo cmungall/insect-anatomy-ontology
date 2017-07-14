@@ -72,23 +72,19 @@ is_a: UBERON:6057001 ! anterior-posterior subdivision of organism
 relationship: part_of UBERON:0000468 ! organism
 
 [Term]
+id: UBERON:6000004 ! insect head
+name: insect head
+xref: FBbt:00000004
+is_a: UBERON:0000033 ! head
+relationship: part_of NCBITaxon:50557 ! Insecta
+
+[Term]
 id: UBERON:6000005
 name: ocular segment
 xref: FBbt:00000005
 def: "Head segment derived from the second embryonic segment (between the labral and antennal segments). In the larva, this segment includes Bolwig's organ." [FlyBase:FBrf0055841, FlyBase:FBrf0075072]
 synonym: "acron" RELATED []
 is_a: UBERON:6000007 ! procephalic segment
-
-[Term]
-id: UBERON:6000006
-name: head segment
-xref: FBbt:00000006
-def: "Any segment (UBERON:6000003) that is part of some head (UBERON:6000004)." [FBC:auto_generated_definition, FlyBase:FBrf0075072]
-is_a: UBERON:0000914 ! segment
-relationship: part_of UBERON:0000033 ! head
-intersection_of: UBERON:0000914 ! segment
-intersection_of: part_of UBERON:0000033 ! head
-relationship: only_in_taxon NCBITaxon:50557 ! Insecta
 
 [Term]
 id: UBERON:6000007
@@ -316,28 +312,6 @@ is_a: UBERON:6000002 ! tagma
 relationship: part_of UBERON:0000922 ! embryo
 intersection_of: UBERON:6000002 ! tagma
 intersection_of: part_of UBERON:0000922 ! embryo
-
-[Term]
-id: UBERON:6000154
-name: embryonic segment
-xref: FBbt:00000154
-def: "Any segment (UBERON:6000003) that is part of some embryo (UBERON:6000052)." [FBC:auto_generated_definition]
-is_a: UBERON:0000914 ! segment
-relationship: part_of UBERON:0000922 ! embryo
-intersection_of: UBERON:0000914 ! segment
-intersection_of: part_of UBERON:0000922 ! embryo
-relationship: only_in_taxon NCBITaxon:50557 ! Insecta
-
-[Term]
-id: UBERON:6000157
-name: embryonic head segment
-xref: FBbt:00000157
-def: "Any segment (UBERON:6000003) that is part of some embryonic head (UBERON:6000155)." [FBC:auto_generated_definition, FlyBase:FBrf0075072]
-is_a: UBERON:6000006 ! head segment
-is_a: UBERON:6000154 ! embryonic segment
-relationship: part_of UBERON:0008816 ! embryonic head
-intersection_of: UBERON:0000914 ! segment
-intersection_of: part_of UBERON:0008816 ! embryonic head
 
 [Term]
 id: UBERON:6000158
@@ -715,28 +689,6 @@ intersection_of: UBERON:6000002 ! tagma
 intersection_of: part_of UBERON:0002548 ! larva
 
 [Term]
-id: UBERON:6001729
-name: larval segment
-xref: FBbt:00001729
-def: "Any segment (UBERON:6000003) that is part of some larva (UBERON:6001727)." [FBC:auto_generated_definition]
-is_a: UBERON:0000914 ! segment
-relationship: develops_from UBERON:6000154 ! embryonic segment
-relationship: part_of UBERON:0002548 ! larva
-intersection_of: UBERON:0000914 ! segment
-intersection_of: part_of UBERON:0002548 ! larva
-
-[Term]
-id: UBERON:6001730
-name: larval head
-xref: FBbt:00001730
-def: "Any head (UBERON:6000004) that is part of some larva (UBERON:6001727)." [FBC:auto_generated_definition]
-is_a: UBERON:0000033 ! head
-is_a: UBERON:6001728 ! larval tagma
-relationship: part_of UBERON:0002548 ! larva
-intersection_of: UBERON:0000033 ! head
-intersection_of: part_of UBERON:0002548 ! larva
-
-[Term]
 id: UBERON:6001731
 name: larval ocular segment
 xref: FBbt:00001731
@@ -746,17 +698,6 @@ is_a: UBERON:6000005 ! ocular segment
 is_a: UBERON:6001733 ! larval procephalic segment
 relationship: part_of UBERON:6001730 ! larval head
 intersection_of: UBERON:6000005 ! ocular segment
-intersection_of: part_of UBERON:6001730 ! larval head
-
-[Term]
-id: UBERON:6001732
-name: larval head segment
-xref: FBbt:00001732
-def: "Any segment (UBERON:6000003) that is part of some larval head (UBERON:6001730)." [FBC:auto_generated_definition, FlyBase:FBrf0075072]
-is_a: UBERON:6000006 ! head segment
-is_a: UBERON:6001729 ! larval segment
-relationship: part_of UBERON:6001730 ! larval head
-intersection_of: UBERON:0000914 ! segment
 intersection_of: part_of UBERON:6001730 ! larval head
 
 [Term]
@@ -1163,18 +1104,6 @@ relationship: part_of UBERON:6001734 ! larval labral segment
 relationship: part_of UBERON:6001920 ! embryonic/larval brain
 
 [Term]
-id: UBERON:6002639
-name: embryonic/larval sense organ
-xref: FBbt:00002639
-def: "Any sense organ (UBERON:6005155) that is part of some larva (UBERON:6001727)." [FBC:auto_generated_definition]
-synonym: "larval sense organ" EXACT []
-is_a: UBERON:0000020 ! sense organ
-relationship: part_of UBERON:0002548 ! larva
-intersection_of: UBERON:0000020 ! sense organ
-intersection_of: part_of UBERON:0002548 ! larva
-relationship: only_in_taxon NCBITaxon:50557 ! Insecta
-
-[Term]
 id: UBERON:6002642
 name: embryonic/larval ocular segment sensillum
 xref: FBbt:00002642
@@ -1196,26 +1125,14 @@ intersection_of: UBERON:6000002 ! tagma
 intersection_of: part_of UBERON:0007023 ! adult
 
 [Term]
-id: UBERON:6003006
-name: insect adult segment
-xref: FBbt:00003006
-def: "Segment of the adult." [FBC:SPR]
-is_a: UBERON:0000914 ! segment
-relationship: part_of UBERON:0007023 ! adult
-intersection_of: UBERON:0000914 ! segment
-intersection_of: part_of UBERON:0007023 ! adult
-relationship: only_in_taxon NCBITaxon:50557 ! Insecta
-
-[Term]
 id: UBERON:6003007
 name: insect adult head
 xref: FBbt:00003007
 def: "Head of the adult organism." [FBC:SPR]
-is_a: UBERON:0000033 ! head
 is_a: UBERON:6003005 ! adult tagma
-relationship: part_of UBERON:0007023 ! adult
 intersection_of: UBERON:0000033 ! head
 intersection_of: part_of UBERON:0007023 ! adult
+intersection_of: part_of NCBITaxon:50557 ! Insecta
 
 [Term]
 id: UBERON:6003009
@@ -2060,17 +1977,6 @@ def: "Protocerebrum of the adult brain." [FBC:SPR]
 is_a: UBERON:6003627 ! protocerebrum
 relationship: part_of UBERON:6003011 ! adult labral segment
 relationship: part_of UBERON:6110636 ! adult cerebral ganglion
-
-[Term]
-id: UBERON:6007149
-name: segment of antenna
-xref: FBbt:00007149
-def: "Any appendage segment (UBERON:6007018) that is part of some antenna (UBERON:6004511)." [FBC:auto_generated_definition]
-is_a: UBERON:0010758 ! appendage segment
-relationship: part_of UBERON:0000972 ! antenna
-intersection_of: UBERON:0010758 ! appendage segment
-intersection_of: part_of UBERON:0000972 ! antenna
-relationship: only_in_taxon NCBITaxon:50557 ! Insecta
 
 [Term]
 id: UBERON:6007150
